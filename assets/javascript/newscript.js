@@ -71,6 +71,8 @@ window.onload = function () {
         $('#Phrase').css({ "color": "gainsboro" });
         $("#Remaining").css({ "color": "black" });
 
+        onScreenPhrase = [];
+
         // generate string of dashes that matches winningPhrase length
         for (i = 0; i < winningPhrase.length; i++) {
             onScreenPhrase[i] = "_";
