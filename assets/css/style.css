@@ -1,0 +1,57 @@
+body{
+    background-image:url(../images/escheresque.png);
+}
+
+.container{
+    font-size: 40px;
+}
+
+.card-header{
+    background-color:navy;
+    color: gainsboro;
+}
+
+.btn{
+    position: fixed;
+    top: 405px;
+    left: 1115px;
+    background-color: #ff4200;
+    border-color: #ff4200;
+}
+
+.card-body{
+    height: 100px;
+}
+
+#Phrase{
+    font-size: 44px;
+}
+
+#Guessed{
+    color: black;
+}
+
+.jumbotron{
+    background-color: navy;
+    color: gainsboro;
+    margin-top: 10px;
+    height: 450px;
+}
+
+#winner{
+    position: fixed;
+    width: 100%;
+    font-size: 60px;
+    color: green;
+    left: 0px;
+    bottom: 120px;
+}
+
+#loser{
+    position: fixed;
+    width: 100%;
+    font-size: 60px;
+    color: #ff4200;
+    left: 0px;
+    bottom: 120px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link to bootstrap 4.0.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Link to jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Link to game.js -->
+    <script src="assets/javascript/newscript.js"></script>
+    <title>Periodic Table Hangman</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <img src="assets/images/650banner.png" class="rounded" align="center">
+
+            <button class="btn btn-warning btn-xs theme-button float-right" id="newGame">
+                New game
+            </button>
+
+            <div id="Phrase">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <h4 class="card-header">Guesses remaining</h4>
+                    <div class="card-body">
+                        <div id="Remaining" class="text-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <h4 class="card-header">Letters Guessed</h4>
+                    <div class="card-body">
+                        <div id="Guessed" class="text-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="winner" class="text-center">
+            You win!
+        </div>
+
+        <div id="loser" class="text-center">
+
+        </div>
+
+</body>
+
+</html>
